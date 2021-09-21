@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:geld_locker/Screens/Welcome/welcome_screen.dart';
+import 'package:geld_locker/constants.dart';
 
 void main() {
   runApp(MyApp());
@@ -12,12 +14,15 @@ class MyApp extends StatelessWidget {
       title: 'Geld Locker',
       theme: ThemeData(
 
-        primarySwatch: Colors.blue,
+        primaryColor: kPrimaryColor,
+        scaffoldBackgroundColor: Colors.white,
       ),
-      home: MyHomePage(title: 'Flutter Demo Home Page'),
+        home: WelcomeScreen(),
+
     );
   }
 }
+/*
 
 class MyHomePage extends StatefulWidget {
   MyHomePage({Key? key, required this.title}) : super(key: key);
@@ -70,3 +75,4 @@ class _MyHomePageState extends State<MyHomePage> {
     );
   }
 }
+*/
