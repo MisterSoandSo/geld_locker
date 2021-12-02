@@ -6,8 +6,7 @@
         android:label="Geld Locker"
         android:icon="@mipmap/ic_launcher">
 
-        <meta-data android:name="com.google.android.geo.API_KEY"
-           android:value="AIzaSyD55Hpoo7T8-db_L6IBax_tOVTeaKR2x6A"/>
+        
 
         <activity
             android:name=".MainActivity"
