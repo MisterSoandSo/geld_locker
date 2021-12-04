@@ -1,4 +1,4 @@
 # Geo Location Data Locker - GELD Locker
 
-A initial starter repository for a new flutter application
+A geolocation note based flutter application using firebase backend.
  
